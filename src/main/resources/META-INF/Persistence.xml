@@ -6,11 +6,14 @@
 
     <persistence-unit name="sistemaHospitalar">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <class>br.com.alura.jpa.modelo.Conta</class>
+        <class>br.com.sistemahospitalar.model.Clinica</class>
+        <class>br.com.sistemahospitalar.model.Leito</class>
+        <class>br.com.sistemahospitalar.model.Paciente</class>
+        <class>br.com.sistemahospitalar.model.LeitoInternacao</class>
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/dbName" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/sistemaHospitalar" />
             <property name="javax.persistence.jdbc.user" value="postgres" />
             <property name="javax.persistence.jdbc.password" value="131825" />
 
