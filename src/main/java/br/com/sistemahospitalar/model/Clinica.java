@@ -44,8 +44,13 @@ public class Clinica {
 		this.lstLeito = lstLeito;
 	}
 
+	@Override
+	public String toString() {
+		return "Clinica [id=" + id + ", descricao=" + descricao + ", lstLeito=" + lstLeito + "]";
+	}
 
 
+	//Teste GitHub
 	
 		
 	
